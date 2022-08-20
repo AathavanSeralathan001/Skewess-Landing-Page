@@ -1,0 +1,59 @@
+.banner-wrapper{
+    width: auto;
+    display: block;
+    display: flex;
+    float: right;
+  }
+
+.banner-wrapper > img{
+    margin-top: -250px !important;
+    width: 100%;
+   
+}
+
+.article {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.picture {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* .header {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+} */
+marquee{
+    font-family: Raleway;
+    font-size:40px;
+    text-align: center;
+    font-weight: 500;
+    font-variant: small-caps;
+    color:rgb(98, 60, 237)
+}
+@media only screen and (max-width:900px) {
+    .banner-wrapper > img{
+        margin-top: -80px !important;
+        
+    }
+    
+
+ }
+@media only screen and (max-width:600px) {
+
+    .time{
+        font-size: 20px;
+    }
+}
